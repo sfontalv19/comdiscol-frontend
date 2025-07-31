@@ -53,8 +53,13 @@ export default function Home() {
 
   // ——— Acciones rápidas ———
   const actions = [
+    { label: 'Nuevo Cliente',    href: '/clientes/new' },
+    { label: 'Ver Clientes',     href: '/clientes' },
+    { label: 'Nuevo Proveedor',  href: '/proveedores/new' },
+    { label: 'Ver Proveedores',  href: '/proveedores' },
     { label: 'Nueva Cotización', href: '/nueva_cotizacion', primary: true },
     { label: 'Ver Cotizaciones', href: '/cotizaciones' }
+
   ];
 
   // ——— Columnas para la tabla de cotizaciones ———
